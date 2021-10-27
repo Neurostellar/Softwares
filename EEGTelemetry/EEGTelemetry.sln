@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EEGTelemetryAPI", "EEGTelemetryAPI\EEGTelemetryAPI.csproj", "{EB65CEEF-BF07-48D1-A8B4-F8B9F7284122}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EEGTelemetrySPA", "EEGTelemetrySPA\", "{8339E138-C5C8-4D0A-A142-FA2BAF0F5EAE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50241"
+		Debug.AspNetCompiler.PhysicalPath = "EEGTelemetrySPA\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50241\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50241"
+		Release.AspNetCompiler.PhysicalPath = "EEGTelemetrySPA\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50241\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50241"
+		SlnRelativePath = "EEGTelemetrySPA\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB65CEEF-BF07-48D1-A8B4-F8B9F7284122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB65CEEF-BF07-48D1-A8B4-F8B9F7284122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB65CEEF-BF07-48D1-A8B4-F8B9F7284122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB65CEEF-BF07-48D1-A8B4-F8B9F7284122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8339E138-C5C8-4D0A-A142-FA2BAF0F5EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8339E138-C5C8-4D0A-A142-FA2BAF0F5EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8339E138-C5C8-4D0A-A142-FA2BAF0F5EAE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8339E138-C5C8-4D0A-A142-FA2BAF0F5EAE}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {377BBB02-15E3-4A38-BA3C-615F27B1D826}
+	EndGlobalSection
+EndGlobal
